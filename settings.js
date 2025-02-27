@@ -27,7 +27,7 @@ global.botname = process.env.BOT_NAME || 'CypherX'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '50943057090' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -65,7 +65,7 @@ global.statusemoji = process.env.STATUS_EMOJI || '🧡'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 // set true to enable and false to disable auto status view
 
 //--------------[ AUTO REACT STATUS ]--------------//
@@ -75,7 +75,7 @@ global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
